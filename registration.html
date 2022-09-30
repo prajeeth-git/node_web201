@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href=".\style.css">
+
+</head>
+<body id="bg-1">
+    <div  >
+        <h2 id="heading">Registration Form</h2><br>
+        <div id="box-1">
+        <form id="r-form">
+            <label for="name">Name</label><br>
+            <input required type="text" id="name" name="name" placeholder="Name"><br>
+        
+            <label for="email">Email</label><br>
+            <input required type="email" id="email" name="email" placeholder="Email"><br>
+        
+            <label for="password">Password</label><br>
+            <input required type="password" id="password" name="password" placeholder="Password"><br>
+        
+            <label for="dob">Date of Birth</label><br>
+            <input required type="date" id="dob" name="dob"><br>
+        
+            <input required type="checkbox" id="acceptTerms" name="acceptTerms">
+            <label  for="acceptTerms">Accept Terms & Conditions</label><br>
+        
+            <button id= "submit" type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+    <div class="container">
+        <div id="table-design">
+        <h2 id ="table-heading">Entries</h2>
+        <div id = "user-entries"></div>
+        </div>
+    </div>
+    <script src=".\scripts.js"></script>
+</body>
+
+</html>
